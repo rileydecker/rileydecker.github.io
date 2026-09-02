@@ -1,0 +1,56 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+    font-family: Palatino, serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+.site-header {
+    padding: 40px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-photo {
+    width: 180px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.contact-info h1 {
+    margin: 0 0 10px 0;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+
+/* Main content */
+
+main {
+    padding-bottom: 60px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+code {
+    font-family: "Courier New", monospace;
+    font-size: 1em;
+}
